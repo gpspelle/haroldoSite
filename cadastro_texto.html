@@ -21,7 +21,7 @@
                         <li class="menu">
                             <a href="relatorios.html">Relatórios</a>
                         </li>
-                        <li class="menu">
+                        <li class="menu selected">
                             <a href="textos.html">Textos</a>
                         </li>
                         <li class="menu">
@@ -30,7 +30,7 @@
                         <li class="menu">
                             <a href="usuarios.html">Usuários</a>
                         </li>
-                        <li class="menu selected">
+                        <li class="menu">
                             <a href="perfil.html">Perfil</a>
                         </li>
                         <li class="menu">
@@ -41,27 +41,16 @@
             </div>
             <div id="body">
                 <div class="footer">
-                    <div class="sidebar">
-                        <h1>Administrador</h1>
-                        <img src="images/user.png">
-                        <p>Para atualizar alguma informação do seu cadastro, altere-a nos campos ao lado e informe a senha antiga.</p>
-                        <p>Do: colocar no placeholder as informaçoes do usuario atual</p>
-                    </div>
-                    <div class="caixinha">
-                        <form class="form-signin">
-                            <div class="text">Seu Perfil</div>
-                            <label class="cadastro">Nome:</label><input type="text" name="name" class="form-control" placeholder="Name" required autofocus>
-                            <br>
-                            <label class="cadastro">E-mail:</label><input type="email" name="login" class="form-control" placeholder="Email address" required autofocus>
-                            <br>
-                            <label class="cadastro">Nova senha:</label><input type="password" name="senha" class="form-control" placeholder="Password" required autofocus>
-                            <br>
-                            <label class="cadastro">Confirme a nova senha:</label><input type="password" name="confirmSenha" class="form-control" placeholder="Confirm your password" required>
-                            <br>
-                            <label class="cadastro">Senha antiga:</label><input type="password" name="confirmSenha" class="form-control" placeholder="Confirm your password" required>
-                            <br>
-                            <button class="button">Enviar</button>
-                        </form>
+                    <div>
+                        <!--<form id="myForm">
+                        FORM PARA ENVIAR O CONTEUDO DE TEXTAREA
+                        </form>-->
+                        <h1 style="text-align: center">
+                            Cadastro de novo texto institucional
+                        </h1>
+                        <textarea form="myForm" rows="10" cols="40" maxlength="500">Insira seu texto aqui...
+                        </textarea>
+                        <button type="submit">Enviar e voltar pra tela de Textos</button>
                     </div>
                 </div>
             </div>

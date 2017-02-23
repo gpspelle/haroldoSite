@@ -1,103 +1,82 @@
 <!doctype html>
-<!-- Website template by freewebsitetemplates.com -->
 <html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Cadastro</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
-	<link rel="stylesheet" type="text/css" href="css/mobile.css">
-	<link rel="stylesheet" type="text/cs" href="css/login.css">
-	<script src="js/mobile.js" type="text/javascript"></script>
-</head>
-<body>
-	<div id="page">
-		<div id="header">
-			<div>
-				<a href="home.html" class="logo"><img src="images/logo.jpg" alt=""></a>
-				<ul id="navigation">
-					<li class="menu">
-						<a href="home.html">Home</a>
-					</li>
-					<li class="menu">
-						<a href="relatorios.html">Relatórios</a>
-					</li>
-					<li>
-						<a href="textos.html">Textos Institucionais</a>
-					</li>
-					<li class="menu seleted">
-						<div class="dropdown">
-							<button onclick="myFunction()" class="dropbtn">Gerenciamento</button>
-							<div id="myDropdown" class="dropdown-content" style="padding-top: 15px">
-								<a href="cadastro.html" style="padding: 15px">Cadastro</a>
-								<a href="usuarios.html" style="padding: 15px">Usuários</a>
-								<a href="perfil.html" style="padding: 15px">Perfil</a>
-							</div>
-						</div>
-					</li>
-					<li class="menu">
-						<a href="login.html">Sair</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<div id="body">
-			<div class="footer">
-				<div class="sidebar" style="text-align: center">
-					<h1>Administrador</h1>
-					<img src="images/approve-invoice.png">
-					<p>Preencha o formulário a seguir para realizar o cadastro de um novo administrador</p>
-				</div>
-				<div class="caixinha">
-					<form class="form-signin">
-						<div class="text">Formulário de Cadastro de Administradores</div>
-						<label class="cadastro">Nome:</label><input type="text" name="name" class="form-control" placeholder="Name" required autofocus>
-						<br>
-						<label class="cadastro">E-mail:</label><input type="email" name="login" class="form-control" placeholder="Email address" required autofocus>
-						<br>
-						<label class="cadastro">Senha:</label><input type="password" name="senha" class="form-control" placeholder="Password" required autofocus>
-						<br>
-						<label class="cadastro">Confirme a senha:</label><input type="password" name="confirmSenha" class="form-control" placeholder="Confirm your password" required>
-						<br>
-						<button class="button">Enviar</button>
-					</form>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Cadastro</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link rel="stylesheet" type="text/css" href="css/mobile.css">
+		<link rel="stylesheet" type="text/cs" href="css/login.css">
+		<script src="js/mobile.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="page">
+			<div id="header">
+				<div>
+					<a href="home.html" class="logo"><img src="images/logo.jpg" alt=""></a>
+					<ul id="navigation">
+						<li class="menu">
+							<a href="home.html">Home</a>
+						</li>
+						<li class="menu">
+							<a href="relatorios.html">Relatórios</a>
+						</li>
+						<li class="menu">
+							<a href="textos.html">Textos</a>
+						</li>
+						<li class="menu selected">
+							<a href="cadastro.html">Cadastro</a>
+						</li>
+						<li class="menu">
+							<a href="usuarios.html">Usuários</a>
+						</li>
+						<li class="menu">
+							<a href="perfil.html">Perfil</a>
+						</li>
+						<li class="menu">
+							<a href="login.html">Sair</a>
+						</li>
+					</ul>
 				</div>
 			</div>
-		</div>
-		<div id="footer">
-			<div>
-				<div class="connect">
-					<a href="https://www.facebook.com/padreharoldo/" class="facebook">facebook</a>
-					<a href="https://twitter.com/@PadreHaroldo" class="twitter">twitter</a>
-					<a href="https://www.instagram.com/institutopadreharoldo/" class="insta">insta</a>
-					<a href="https://www.linkedin.com/company/instituto-padre-haroldo" class="linkedin">linkedin</a>
+			<div id="body">
+				<div class="footer">
+					<div class="sidebar" style="text-align: center">
+						<h1>Administrador</h1>
+						<img src="images/approve-invoice.png">
+						<p>Preencha o formulário a seguir para realizar o cadastro de um novo administrador</p>
+					</div>
+					<div class="caixinha">
+						<form class="form-signin">
+							<div class="text">Formulário de Cadastro de Administradores</div>
+							<label class="cadastro">Nome:</label><input type="text" name="name" class="form-control"
+																		placeholder="Name" required autofocus>
+							<br>
+							<label class="cadastro">E-mail:</label><input type="email" name="login" class="form-control"
+																		  placeholder="Email address" required autofocus>
+							<br>
+							<label class="cadastro">Senha:</label><input type="password" name="senha" class="form-control"
+																		 placeholder="Password" required autofocus>
+							<br>
+							<label class="cadastro">Confirme a senha:</label><input type="password" name="confirmSenha"
+													class="form-control" placeholder="Confirm your password" required>
+							<br>
+							<button class="button">Enviar</button>
+						</form>
+					</div>
 				</div>
-				<p>© 2017 Instituto Padre Haroldo. All Rights Reserved.</p>
+			</div>
+			<div id="footer">
+				<div>
+					<div class="connect">
+						<a href="https://www.facebook.com/padreharoldo/" class="facebook">facebook</a>
+						<a href="https://twitter.com/@PadreHaroldo" class="twitter">twitter</a>
+						<a href="https://www.instagram.com/institutopadreharoldo/" class="insta">insta</a>
+						<a href="https://www.linkedin.com/company/instituto-padre-haroldo" class="linkedin">linkedin</a>
+					</div>
+					<p>© 2017 Instituto Padre Haroldo. All Rights Reserved.</p>
+				</div>
 			</div>
 		</div>
-	</div>
-</body>
+	</body>
 </html>
-
-<script>
-	/* When the user clicks on the button,
-	 toggle between hiding and showing the dropdown content */
-    function myFunction() {
-        document.getElementById("myDropdown").classList.toggle("show");
-    }
-
-    // Close the dropdown if the user clicks outside of it
-    window.onclick = function(event) {
-        if (!event.target.matches('.dropbtn')) {
-
-            var dropdowns = document.getElementsByClassName("dropdown-content");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
-                }
-            }
-        }
-    }
-</script>

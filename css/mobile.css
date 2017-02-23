@@ -230,6 +230,7 @@
 
 }
 @media only screen and (max-width : 900px) {
+
 	#body{
 	}
 	#body.home {
@@ -337,16 +338,19 @@
 	#body div.footer {
 		margin: 0;
 		max-width: none;
-		overflow: hidden;
+		overflow: scroll;
 		padding: 0 0 0;
 		width: 100%;
 	}
 	#body div.footer div.sidebar {
 		float: none;
-		height: 325px;
+		height: 400px;
 		margin: 10% auto 0;
 		padding: 36px 0 34px;
 		width: 90%;
+	}
+	#body div.footer div.sidebar img{
+		min-width: 150px;
 	}
 	#body div.footer div.article {
 		float: none;
